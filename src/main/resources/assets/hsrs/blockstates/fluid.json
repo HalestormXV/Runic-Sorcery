@@ -1,0 +1,51 @@
+{
+	"forge_marker": 1,
+
+	"defaults": {"model": "forge:fluid"},
+
+	"variants": {
+		"normal": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "normal"}
+			}
+		],
+		"normal_gas": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "normal_gas"}
+			}
+		],
+		"static": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "static"}
+			}
+		],
+		"static_gas": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "static_gas"}
+			}
+		],
+		"finite": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "finite"}
+			}
+		],
+		"liquid_mysterium": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "liquid_mysterium"}
+			}
+		],
+
+		"portal_displacement": [
+			{
+				"model": "forge:fluid",
+				"custom": {"fluid": "portal_displacement"}
+			}
+		]
+	}
+}

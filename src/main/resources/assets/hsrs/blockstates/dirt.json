@@ -1,0 +1,7 @@
+{
+    "variants": 
+    {
+        "variant=lupresium": { "model": "hsrs:dirt_lupresium" },
+        "variant=mystic": { "model": "hsrs:dirt_mystic" }
+    }
+}

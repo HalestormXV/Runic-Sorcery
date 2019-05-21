@@ -1,0 +1,8 @@
+{
+  "variants":
+  {
+    "variant=lupresium": {"model": "hsrs:ore_overworld_lupresium" },
+    "variant=apronyx": {"model": "hsrs:ore_overworld_apronyx" },
+    "variant=xoshian": {"model": "hsrs:ore_overworld_xoshian" }
+  }
+}

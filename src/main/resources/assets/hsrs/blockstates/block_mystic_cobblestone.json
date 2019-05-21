@@ -1,0 +1,9 @@
+{ "forge_marker": 1,
+    "defaults": { 
+      "model": "hsrs:block_mystic_cobblestone"
+    },
+    "variants": { 
+      "normal": [{}], 
+      "inventory": [{}]
+    }
+}

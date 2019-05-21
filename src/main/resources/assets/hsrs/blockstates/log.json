@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "axis=y,variant=lupresium": { "model": "hsrs:log_lupresium" },
+        "axis=z,variant=lupresium": { "model": "hsrs:log_lupresium", "x": 90 },
+        "axis=x,variant=lupresium": { "model": "hsrs:log_lupresium", "x": 90, "y": 90 },
+        "axis=none,variant=lupresium": { "model": "hsrs:log_lupresium" },
+        
+        "axis=y,variant=mystic": { "model": "hsrs:log_mystic" },
+        "axis=z,variant=mystic": { "model": "hsrs:log_mystic", "x": 90 },
+        "axis=x,variant=mystic": { "model": "hsrs:log_mystic", "x": 90, "y": 90 },
+        "axis=none,variant=mystic": { "model": "hsrs:log_mystic" }
+    }
+}

@@ -1,0 +1,9 @@
+{ "forge_marker": 1,
+    "defaults": { 
+      "model": "hsrs:ore_phenet"
+    },
+    "variants": { 
+      "normal": [{}], 
+      "inventory": [{}]
+    }
+}

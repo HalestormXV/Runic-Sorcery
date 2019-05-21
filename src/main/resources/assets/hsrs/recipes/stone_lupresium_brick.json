@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["SS", "SS"],
+	"key": 
+	{
+		"S":
+		{
+			"item": "hsrs:stone",
+			"data": 0
+		}
+	},
+	"result": {
+		"item": "hsrs:stone",
+		"data": 2,
+		"count": 4
+	}
+}

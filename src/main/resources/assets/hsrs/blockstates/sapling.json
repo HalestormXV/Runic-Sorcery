@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "stage=0,variant=lupresium": { "model": "hsrs:sapling_lupresium" },
+        "stage=1,variant=lupresium": { "model": "hsrs:sapling_lupresium" },
+        
+        "stage=0,variant=mystic": { "model": "hsrs:sapling_mystic" },
+        "stage=1,variant=mystic": { "model": "hsrs:sapling_mystic" }
+    }
+}

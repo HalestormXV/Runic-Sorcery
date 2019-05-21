@@ -1,0 +1,14 @@
+{
+  "parent": "block/orientable",
+  "textures":
+  {
+    "particle": "hsrs:blocks/runic_inscriber_front_on",
+    "up": "hsrs:blocks/runic_inscriber_front_on",
+    "down": "hsrs:blocks/runic_inscriber_top",
+    "north": "hsrs:blocks/runic_inscriber_side",
+    "east": "hsrs:blocks/runic_inscriber_side",
+    "south": "hsrs:blocks/runic_inscriber_side",
+    "west": "hsrs:blocks/runic_inscriber_side",
+    "top": "hsrs:blocks/runic_inscriber_front_on"
+  }
+}

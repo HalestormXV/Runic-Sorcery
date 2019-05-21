@@ -1,0 +1,14 @@
+{
+    "variants": 
+    {
+        "variant=lupresium_smoothstone": { "model": "hsrs:stone_lupresium_smoothstone" },
+        "variant=lupresium_runestone": { "model": "hsrs:stone_lupresium_runestone" },
+        "variant=lupresium_brick": { "model": "hsrs:stone_lupresium_brick" },
+        "variant=lupresium_chiseled": { "model": "hsrs:stone_lupresium_chiseled" },
+
+        "variant=mystic_smoothstone": { "model": "hsrs:stone_mystic_smoothstone" },
+        "variant=mystic_runestone": { "model": "hsrs:stone_mystic_runestone" },
+        "variant=mystic_brick": { "model": "hsrs:stone_mystic_brick" },
+        "variant=mystic_chiseled": { "model": "hsrs:stone_mystic_chiseled" }
+    }
+}

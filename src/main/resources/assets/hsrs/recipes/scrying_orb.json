@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" A ", "GcG", " A "],
+  "key":
+  {
+    "G":
+    {
+      "item": "hsrs:item_runestone",
+      "data": 6
+    },
+    "A":
+    {
+      "item": "hsrs:item_runestone",
+      "data": 1
+    },
+    "c":
+    {
+      "item": "hsrs:magicians_core",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "hsrs:scrying_orb",
+    "count": 1
+  }
+}

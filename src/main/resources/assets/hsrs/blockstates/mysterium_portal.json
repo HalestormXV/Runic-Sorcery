@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "axis=z": { "model": "hsrs:mysterium_portal_ew" },
+    "axis=x": { "model": "hsrs:mysterium_portal_ns" }
+  }
+}

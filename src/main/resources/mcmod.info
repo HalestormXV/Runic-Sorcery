@@ -1,0 +1,27 @@
+[
+{
+  "modid": "hsrs",
+
+  "name": "Runic Sorcery",
+
+  "description": "A mod that adds a bit of magic in the form of Runes. Crafting runes, empowering them and utilzing them for some nifty spellcraft.",
+
+  "version": "${version}",
+
+  "mcversion": "${mcversion}",
+
+  "url": "",
+
+  "updateUrl": "",
+
+  "authorList": ["HalestormXV"],
+
+  "credits": "The Forge and FML guys, for making it all possible. Major credit to zabi94 for having Open Source code on Potion creating. Major credit to williewillus of ProjectE for excellent walkthough of Portable Inventories (Backpacks) ",
+
+  "logoFile": "hsrs.png",
+
+  "screenshots": [],
+
+  "dependencies": ["JEI"]
+}
+]

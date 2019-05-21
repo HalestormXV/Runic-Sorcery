@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+
+  "defaults":
+  {
+    "textures": {},
+    "model": "hsrs:runic_inscriber",
+    "uvlock": false
+  },
+
+  "variants":
+  {
+    "active=false,facing=north": { "model": "hsrs:runic_inscriber" },
+    "active=false,facing=south": { "model": "hsrs:runic_inscriber", "y": 180 },
+    "active=false,facing=west":  { "model": "hsrs:runic_inscriber", "y": 270 },
+    "active=false,facing=east":  { "model": "hsrs:runic_inscriber", "y": 90 },
+
+    "active=true,facing=north": { "model": "hsrs:active_runic_inscriber" },
+    "active=true,facing=south": { "model": "hsrs:active_runic_inscriber", "y": 180 },
+    "active=true,facing=west":  { "model": "hsrs:active_runic_inscriber", "y": 270 },
+    "active=true,facing=east":  { "model": "hsrs:active_runic_inscriber", "y": 90 }
+  }
+}

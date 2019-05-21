@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "hsrs:dust_siegre"
+		},
+		{
+			"item": "hsrs:dust_siegre"
+		},
+		{
+			"item": "hsrs:dust_siegre"
+		},
+		{
+			"item": "hsrs:dust_siegre"
+		}
+	],
+	"result": {
+		"item": "hsrs:block_siegre"
+	}
+}

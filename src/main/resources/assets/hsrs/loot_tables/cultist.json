@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "name": "CultistRunes",
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "hsrs:item_runestone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CultistDust",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 12,
+                    "name": "hsrs:dust_siegre",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

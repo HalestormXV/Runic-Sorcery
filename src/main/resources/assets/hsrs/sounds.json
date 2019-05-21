@@ -1,0 +1,76 @@
+{
+	"entity.phantom.ambient": {
+		"category": "entity",
+		"subtitle": "entity.phantom.ambient",
+		"sounds": [ {"name": "hsrs:entity/phantom/ambient", "stream": true }]
+	},
+	"entity.phantom.hurt": {
+		"category": "entity",
+		"subtitle": "entity.phantom.hurt",
+		"sounds": [ {"name": "hsrs:entity/phantom/hurt", "stream": true }]
+	},
+	"entity.phantom.death": {
+		"category": "entity",
+		"subtitle": "entity.phantom.death",
+		"sounds": [ {"name": "hsrs:entity/phantom/death", "stream": true }]
+	},
+	"entity.cultist.ambient": {
+		"category": "entity",
+		"subtitle": "entity.cultist.ambient",
+		"sounds":
+		[
+			{"name": "hsrs:entity/cultist/ambient01", "stream": true},
+			{"name": "hsrs:entity/cultist/ambient02", "stream": true},
+			{"name": "hsrs:entity/cultist/ambient03", "stream": true}
+		]
+	},
+	"entity.cultist.death": {
+		"category": "entity",
+		"subtitle": "entity.cultist.death",
+		"sounds": [ {"name": "hsrs:entity/cultist/death", "stream": true }]
+	},
+	"entity.cultist.hurt": {
+		"category": "entity",
+		"subtitle": "entity.cultist.hurt",
+		"sounds":
+		[
+			{"name": "hsrs:entity/cultist/hurt01", "stream": true },
+			{"name": "hsrs:entity/cultist/hurt02", "stream": true },
+			{"name": "hsrs:entity/cultist/hurt03", "stream": true }
+		]
+	},
+	"entity.cultist.special": {
+		"category": "entity",
+		"subtitle": "entity.cultist.special",
+		"sounds": [ {"name": "hsrs:entity/cultist/special", "stream": true }]
+	},
+	"effect.runic_inscriber.active": {
+		"category": "blocks",
+		"subtitle": "effect.runic_inscriber.active",
+		"sounds": [ {"name": "hsrs:blocks/inscriber/active", "stream": true }]
+	},
+	"effect.spell_cast_fizzle": {
+		"category": "master",
+		"subtitle": "effect.spell_cast_fizzle",
+		"sounds": [ {"name": "hsrs:entity/spell_fizzle", "stream": true }]
+	},
+	"effect.spell_fire_sfx": {
+		"category": "master",
+		"subtitle": "effect.spell_fire_sfx",
+		"sounds": [ {"name": "hsrs:blocks/fire_sfx", "stream": true }]
+	},
+	"effect.essence_conversion": {
+		"category": "master",
+		"subtitle": "effect.essence_conversion",
+		"sounds": [ {"name": "hsrs:blocks/essence_conversion", "stream": true }]
+	},
+	"effect.wind_sfx": {
+		"category": "master",
+		"subtitle": "effect.wind_sfx",
+		"sounds": [ {"name": "hsrs:blocks/wind_sfx", "stream": true }]
+	},
+
+	"music.mavismusic": { "sounds":[{"name": "hsrs:music/mavistheme", "stream": true}] },
+	"music.kishuu": { "sounds":[{"name": "hsrs:music/kishuumusic", "stream": true}] },
+	"music.motomiyaflute": { "sounds":[{"name": "hsrs:music/motomiyaflute", "stream": true}] }
+}

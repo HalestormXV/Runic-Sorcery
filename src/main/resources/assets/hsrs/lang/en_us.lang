@@ -1,0 +1,197 @@
+#CREATIVE TAB
+itemGroup.RunicSorcery=Runic Sorcery
+itemGroup.RunicSorceryPotions=Runic Sorcery Potions
+
+#CONTAINER
+container.runic_inscriber=Runic Inscriber
+
+#KEY BINDINGS
+hsrs_keybindings=Runic Sorcery
+hsrs_key.runebag=Open Rune Bag
+hsrs_key.runecraftlevel=Check Rune Craft Level
+hsrs_key.cyclespells=Cycle Spells
+
+#POTIONS
+item.breakable=(Breakable)
+
+potion.effect.fuse=Potion of Blast
+lingering_potion.effect.fuse=Lingering Potion of Blast
+splash_potion.effect.fuse=Splash Potion of Blast
+tipped_arrow.effect.fuse=Arrow of Blasting
+effect.fuse=Blast
+description.effect.fuse=§3Through study of Fire Essence it would appear possible to create some form of Blast Potion, that condenses the Fire Essence and can be applied to create some type of Living Bomb effect.
+
+
+potion.effect.recall=Potion of Reminiscence
+lingering_potion.effect.recall=Lingering Potion of Reminiscence
+splash_potion.effect.recall=Splash Potion of Reminiscence
+tipped_arrow.effect.recall=Arrow of Reminiscence
+effect.recall=Reminiscence
+description.effect.recall=§3Through study of Chronomancy runes it would appear possible to create some form of Chrono Anchor, that stores a location and after a set period of time will cause whatever entity is afflicted to return to that point in time.
+
+potion.effect.runecraftMastery=Potion of Runecraft Mastery
+lingering_potion.effect.runecraftMastery=Lingering Potion of Runecraft Mastery
+splash_potion.effect.runecraftMastery=Splash Potion of Runecraft Mastery
+tipped_arrow.effect.runecraftMastery=Arrow of Runecraft Mastery
+effect.runecraftMastery=Runecraft Mastery
+description.effect.runecraftMastery=§3Through study of Runecraft it would appear possible to create some form of elixir, that amplifies the amount of experience gained from crafting Runes.
+
+
+potion.effect.dispel=Potion of Dispel
+lingering_potion.effect.dispel=Lingering Potion of Dispel
+splash_potion.effect.dispel=Splash Potion of Dispel
+tipped_arrow.effect.dispel=Arrow of Dispel
+effect.dispel=Dispel
+
+potion.effect.learning=Potion of Learning
+lingering_potion.effect.learning=Lingering Potion of Learning
+splash_potion.effect.learning=Splash Potion of Learning
+tipped_arrow.effect.learning=Arrow of Learning
+effect.learning=Learning
+description.effect.learning=§3Lapis has some interesting properties that have yet to be discovered. Learning allows intelligence to reach new heights increasing experience gained by around 10 percent. Furthermore, you can also absorb xp orbs instantly and in a larger radius.
+
+potion.effect.return=Potion of Disapparation
+lingering_potion.effect.return=Lingering Potion of Disapparation
+splash_potion.effect.return=Splash Potion of Disapparation
+tipped_arrow.effect.return=Arrow of Disapparation
+effect.return=Disapparate
+
+potion.effect.charged=Charged Potion
+lingering_potion.effect.charged=Lingering Charged Potion
+splash_potion.effect.charged=Splash Charged Potion
+tipped_arrow.effect.charged=Charged Arrow
+effect.charged=Charged
+
+potion.effect.charged2=Charged Potion: Rank 2
+lingering_potion.effect.charged2=Lingering Charged Potion: Rank 2
+splash_potion.effect.charged2=Splash Charged Potion: Rank 2
+tipped_arrow.effect.charged2=Charged Arrow: Rank 2
+effect.charged2=Charged Rank 2
+
+tooltip.credit=Effect added by %1$s
+tooltip.credit.uncertain=Effect maybe added by %1$s
+tooltip.loaded.credit=Item added by Runic Sorcery
+
+#ITEMS
+item.ingot_phenet.name=Phenet Ingot
+item.dust_siegre.name=Siegre Dust
+item.dust_mysterium.name=Mysterium Dust
+item.staff_fledgling.name=Fledgling Staff
+item.staff_apprentice.name=Apprentice's Staff
+item.item_runebag.name=Runestone Satchel
+item.ingot_xoshian.name=Xoshian Ingot
+item.ingot_apronyx.name=Apronyx Ingot
+item.ingot_lupresium.name=Lupresium Ingot
+item.spell_tome_base.name=Basic Tome
+item.spell_tome_empower.name=Tome: Empower
+item.scrying_orb.name=Scrying Orb
+item.spellblade_flame.name=Spellblade of Atziluth
+item.spellblade_weakness.name=Spellblade of Xytlena
+item.runeblade_basic.name=Runemaster's Blade
+item.runecraft_talisman.name=Rune Craft Talisman
+
+#RECORDS
+item.hsrs:record_kishuu.name=Yasuharu Takanashi - Kishuu
+item.record.hsrs:kishuuMusic.desc=Yasuharu Takanashi - Kishuu
+
+item.hsrs:record_motomiya.name=Hiromi Motomiya - Breath
+item.record.hsrs:motomiyaMusic.desc=Hiromi Motomiya - Breath
+
+#MAGICIAN ORBS
+item.magicians_core_basic_uncharged.name=Magician's Orb
+item.magicians_core_basic_charged.name=Magician's Orb (Charged)
+
+#ITEM RUNESTONES
+item.item_runestone_basic.name=Uncharged Rune
+item.item_runestone_air.name=Air Rune
+item.item_runestone_water.name=Water Rune
+item.item_runestone_fire.name=Fire Rune
+item.item_runestone_earth.name=Earth Rune
+item.item_runestone_death.name=Death Rune
+item.item_runestone_barrier.name=Barrier Rune
+item.item_runestone_gravity.name=Gravity Rune
+item.item_runestone_light.name=Light Rune
+item.item_runestone_nightmare.name=Nightmare Rune
+item.item_runestone_poison.name=Poison Rune
+item.item_runestone_void.name=Void Rune
+
+#ITEM RUNE ESSENCE
+item.item_essence_basic.name=Basic Essence
+item.item_essence_air.name=Air Essence
+item.item_essence_water.name=Water Essence
+item.item_essence_fire.name=Fire Essence
+item.item_essence_earth.name=Earth Essence
+item.item_essence_death.name=Death Essence
+item.item_essence_barrier.name=Barrier Essence
+item.item_essence_gravity.name=Gravity Essence
+item.item_essence_light.name=Light Essence
+item.item_essence_nightmare.name=Nightmare Essence
+item.item_essence_poison.name=Poison Essence
+item.item_essence_void.name=Void Essence
+
+#BLOCKS
+tile.block_phenet.name=Phenet Block
+tile.ore_phenet.name=Phenet Ore
+tile.stone_lupresium_smoothstone.name=Lupresium Stone
+tile.block_lupresium_cobblestone.name=Lupresium Cobblestone
+tile.stone_lupresium_chiseled.name=Chiseled Lupresium Stone Bricks
+tile.stone_lupresium_brick.name=Lupresium Bricks
+tile.stone_lupresium_runestone.name=Lupresium Runestone Brick
+tile.stone_mystic_smoothstone.name=Mystic Stone
+tile.block_mystic_cobblestone.name=Mystic Cobblestone
+tile.stone_mystic_chiseled.name=Chiseled Mystic Stone Bricks
+tile.stone_mystic_brick.name=Mystic Bricks
+tile.stone_mystic_runestone.name=Mystic Runestone Brick
+tile.runic_inscriber.name=Runic Inscriber
+tile.grass_lupresium.name=Lupresium Touched Grass
+tile.grass_mystic.name=Mystic Touched Grass
+tile.runic_obelisk.name=Small Runic Obelisk
+tile.runealtar_fire.name=Altar of Fire
+tile.runealtar_water.name=Altar of Water
+tile.runealtar_earth.name=Altar of Earth
+tile.runealtar_air.name=Altar of Air
+
+#ORES
+tile.ore_siegre.name=Siegre Ore
+tile.block_siegre.name=Siegre Block
+tile.ore_overworld_lupresium.name=Lupresium Ore
+tile.ore_overworld_apronyx.name=Apronyx Ore
+tile.ore_overworld_xoshian.name=Xoshian Ore
+tile.ore_nether_lupresium.name=Lupresium Ore
+tile.ore_nether_apronyx.name=Apronyx Ore
+tile.ore_nether_xoshian.name=Xoshian Ore
+tile.ore_end_lupresium.name=Lupresium Ore
+tile.ore_end_apronyx.name=Apronyx Ore
+tile.ore_end_xoshian.name=Xoshian Ore
+
+#FLUIDS
+tile.hsrs:fluid.normal_gas.name=Gaseous Blight
+tile.hsrs:fluid.finite.name=Magic Remnants
+tile.hsrs:fluid.static.name=Runic Remnants
+tile.hsrs:fluid.static_gas.name=Gaseous Discharge
+tile.hsrs:fluid.portal_displacement.name=Liquid Magic
+tile.hsrs:fluid.normal.name=Liquid Mana
+tile.hsrs:fluid.liquid_mysterium.name=Liquefied Mysterium
+
+#WOODS
+tile.dirt_lupresium.name=Lupresium Infused Dirt
+tile.dirt_mystic.name=Mystic Dirt
+
+tile.planks_lupresium.name=Lupresium Planks
+tile.planks_mystic.name=Mystic Planks
+
+tile.log_lupresium.name=Lupresium Infused Wood
+tile.log_mystic.name=Mystic Wood
+
+tile.sapling_lupresium.name=Lupresium Sapling
+tile.sapling_mystic.name=Mystic Sapling
+
+tile.leaves_lupresium.name=Lupresium Touched Leaves
+tile.leaves_mystic.name=Mystic Leaves
+
+#ENTITIES
+entity.phantom.name=Specter
+entity.cultist.name=Runic Cultist
+
+#DAMAGE
+death.attack.aetherChaos=%1$s was killed by backfiring Aether Damage!

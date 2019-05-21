@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "hsrs:blocks/log_mystic_top",
+    "side": "hsrs:blocks/log_mystic"
+  }
+}

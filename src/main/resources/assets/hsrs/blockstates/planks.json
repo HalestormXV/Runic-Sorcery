@@ -1,0 +1,7 @@
+{
+    "variants": 
+    {
+        "variant=lupresium": { "model": "hsrs:planks_lupresium" },
+        "variant=mystic": { "model": "hsrs:planks_mystic" }
+    }
+}

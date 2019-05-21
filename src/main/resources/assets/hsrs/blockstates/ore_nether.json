@@ -1,0 +1,8 @@
+{
+  "variants":
+  {
+    "variant=lupresium": {"model": "hsrs:ore_nether_lupresium" },
+    "variant=apronyx": {"model": "hsrs:ore_nether_apronyx" },
+    "variant=xoshian": {"model": "hsrs:ore_nether_xoshian" }
+  }
+}

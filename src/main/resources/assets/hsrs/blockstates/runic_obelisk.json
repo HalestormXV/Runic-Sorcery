@@ -1,0 +1,11 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "hsrs:runic_obelisk.obj"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

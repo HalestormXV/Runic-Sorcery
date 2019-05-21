@@ -1,0 +1,11 @@
+{
+    "variants": 
+    {
+        "variant=rune_basic": { "model": "hsrs:runestones/rune_basic", "displayName": "Basic Runestone" },
+        "variant=rune_air": { "model": "hsrs:runestones/rune_air", "displayName": "Air Runestone" },
+        "variant=rune_water": { "model": "hsrs:runestones/rune_water", "displayName": "Water Runestone" },
+        "variant=rune_fire": { "model": "hsrs:runestones/rune_fire", "displayName": "Fire Runestone" },
+        "variant=rune_earth": { "model": "hsrs:runestones/rune_earth","displayName": "Earth Runestone" },
+        "variant=rune_death": { "model": "hsrs:runestones/rune_death", "displayName": "Death Runestone" }
+    }
+}

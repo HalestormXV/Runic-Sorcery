@@ -1,0 +1,10 @@
+{
+    "parent": "block/grass",
+    "textures": {
+        "particle": "hsrs:blocks/dirt_lupresium",
+        "bottom": "hsrs:blocks/dirt_lupresium",
+        "top": "hsrs:blocks/grass_lupresium_top",
+        "side": "hsrs:blocks/grass_lupresium_side",
+        "overlay": "hsrs:blocks/grass_lupresium_side_overlay"
+    }
+}

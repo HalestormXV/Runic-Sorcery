@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "SdS", " S "],
+  "key":
+  {
+    "S":
+    {
+      "item": "hsrs:ingot_apronyx",
+      "data": 0
+    },
+    "d":
+    {
+      "item": "hsrs:dust_siegre",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "hsrs:magicians_core",
+    "data": 0,
+    "count": 1
+  }
+}

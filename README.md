@@ -1,1 +1,1 @@
-Runic Sorcery
+A mod that adds a bit of magic in the form of Runes. Crafting runes, empowering them and utilizing them for some nifty spell-craft. Buffing yourself, harming hostiles and a Variety of other things. Utilizing special magical weapons, and much more. Go and explore the world to find some Mystical Structures, or new Biomes, and mayhap you may stumble upon a Gateway to another dimension. Be warned, as new creatures lurk the lands and are always looking for a new victim.

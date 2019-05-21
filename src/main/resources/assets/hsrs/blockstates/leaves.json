@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "check_decay=true,decayable=true,variant=lupresium": { "model": "hsrs:leaves_lupresium" },
+        "check_decay=true,decayable=false,variant=lupresium": { "model": "hsrs:leaves_lupresium" },
+        "check_decay=false,decayable=true,variant=lupresium": { "model": "hsrs:leaves_lupresium" },
+        "check_decay=false,decayable=false,variant=lupresium": { "model": "hsrs:leaves_lupresium" },
+        
+        "check_decay=true,decayable=true,variant=mystic": { "model": "hsrs:leaves_mystic" },
+        "check_decay=true,decayable=false,variant=mystic": { "model": "hsrs:leaves_mystic" },
+        "check_decay=false,decayable=true,variant=mystic": { "model": "hsrs:leaves_mystic" },
+        "check_decay=false,decayable=false,variant=mystic": { "model": "hsrs:leaves_mystic" }
+    }
+}

@@ -1,0 +1,9 @@
+{ "forge_marker": 1,
+  "defaults": {
+    "model":"hsrs:grass_lupresium"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
