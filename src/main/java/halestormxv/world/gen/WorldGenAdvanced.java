@@ -39,7 +39,8 @@ public class WorldGenAdvanced extends WorldGenerator implements IWorldGenerator 
         {
             case 0:
                 //Higher Number = Less Chance to Spawn
-                generateOverworld(world, rand, 160, blockX + 8, blockZ + 8);
+                //generateOverworld(world, rand, 160, blockX + 8, blockZ + 8);
+                generateOverworld(world, rand, 660, blockX + 16, blockZ + 16);
                 break;
         }
 
