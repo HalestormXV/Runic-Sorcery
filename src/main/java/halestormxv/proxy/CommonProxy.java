@@ -25,6 +25,7 @@ import halestormxv.utility.handlers.TileEntityHandler;
 import halestormxv.capabilities.runecrafting.IRuneCraftLevel;
 import halestormxv.capabilities.spellcastlevel.ISpellCastLevel;
 import halestormxv.world.dimensions.ModDimensions;
+import halestormxv.world.dominion.DominionTickHandler;
 import halestormxv.world.gen.WorldGenAdvanced;
 import halestormxv.world.gen.WorldGenCustomOres;
 import halestormxv.world.gen.WorldGenCustomStuffs;
@@ -71,6 +72,7 @@ public class CommonProxy
         CapabilityManager.INSTANCE.register(IRuneBagProvider.class, new RuneBagStorage(), RuneBagFunctions.class);
         CapabilityManager.INSTANCE.register(ISpellCastLevel.class, new SpellCastLvLStorage(), SpellCastLvLFunctions.class);
         CapabilityManager.INSTANCE.register(ILearnedSpells.class, new LearnedSpellsMain.LearnedSpellsStorage(), LearnedSpellsMain.LearnedSpellsFunctions.class);
+        MinecraftForge.EVENT_BUS.register(DominionTickHandler.instance);
         ModDimensions.init();
     }
 

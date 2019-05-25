@@ -46,9 +46,9 @@ public class WorldGenCustomStuffs implements IWorldGenerator {
             case 0:
                 //generateStructures(new WorldGenStructure("cultist_hut"), world, random, chunkX, chunkZ , 10, getBiomeList().toArray(new Class[getBiomeList().size()]));
                 HighQualityRandom selectStructure = new HighQualityRandom();
-                int selection = selectStructure.nextInt(2);
-                if (selection == 0){ generateRuneAltar(new WorldGenStructure("air_temple"), world, random, chunkX, chunkZ, 360, 98, 176);}
-                if (selection == 1) { generateRuneAltar(new WorldGenStructure("earth_temple"), world, random, chunkX , chunkZ, 280, 84, 152);}
+                int selection = selectStructure.nextInt(4);
+                if (selection == 0){ generateRuneAltar(new WorldGenStructure("air_temple"), world, random, chunkX, chunkZ, 660, 98, 176);}
+                if (selection == 1) { generateRuneAltar(new WorldGenStructure("earth_temple"), world, random, chunkX , chunkZ, 480, 84, 152);}
                 //Logging.getLogger().info("Selected: "+selection+" as the spawn.");
                 generateTrees(LUPRESIUM_TREE, world, random, chunkX, chunkZ, 10, lupresiumDirt, BiomeLupresiumForest.class);
                 generateTrees(MYSTIC_TREE, world, random, chunkX, chunkZ, 10, mysticDirt, BiomeMysticLands.class);

@@ -41,6 +41,7 @@ public class PacketHandler
         INSTANCE.registerMessage(SyncSpellCastLvl.Handler.class, SyncSpellCastLvl.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(SyncLearnedSpellsData.Handler.class, SyncLearnedSpellsData.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(PacketChatUtils.PacketNoSpamChat.Handler.class, PacketChatUtils.PacketNoSpamChat.class, nextID(), Side.CLIENT);
+        INSTANCE.registerMessage(PacketSendDominion.Handler.class, PacketSendDominion.class, nextID(), Side.CLIENT);
     }
 
     public static void sendToAllAround(IMessage message, TileEntity te, int range)
