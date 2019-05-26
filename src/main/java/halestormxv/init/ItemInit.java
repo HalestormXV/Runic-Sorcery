@@ -34,6 +34,7 @@ public class ItemInit
     public static final Item INGOT_XOSHIAN = new ItemBase("ingot_xoshian");
     public static final Item ITEM_SCRYING_ORB = new ItemScryingOrb("scrying_orb");
     public static final Item RUNE_CRAFT_TALISMAN = new RuneCraftTalisman("runecraft_talisman");
+    public static final Item DOMINION_GAUNTLET = new ItemGauntlet("dominion_gauntlet");
 
     //SPELL TOMES\\
     public static final Item TOME_BASE = new SpellTomeBase("spell_tome_base");

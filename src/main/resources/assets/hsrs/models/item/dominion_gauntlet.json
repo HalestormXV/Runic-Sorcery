@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "texture":
+    {
+        "layer0": "hsrs:items/dominion_gauntlet"
+    }
+}

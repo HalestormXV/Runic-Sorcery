@@ -1,6 +1,8 @@
 package halestormxv.proxy;
 
 import halestormxv.abilities.RuneBlade_Abilities;
+import halestormxv.capabilities.dominion.PlayerDominion;
+import halestormxv.capabilities.dominion.PlayerPropertyEvents;
 import halestormxv.capabilities.learnedspells.ILearnedSpells;
 import halestormxv.capabilities.learnedspells.LearnedSpellsMain;
 import halestormxv.capabilities.runebag.RuneBagFunctions;
@@ -33,9 +35,12 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.Item;
+import net.minecraft.nbt.NBTBase;
 import net.minecraft.network.play.server.SPacketEntityEffect;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.EnumFacing;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -72,7 +77,23 @@ public class CommonProxy
         CapabilityManager.INSTANCE.register(IRuneBagProvider.class, new RuneBagStorage(), RuneBagFunctions.class);
         CapabilityManager.INSTANCE.register(ISpellCastLevel.class, new SpellCastLvLStorage(), SpellCastLvLFunctions.class);
         CapabilityManager.INSTANCE.register(ILearnedSpells.class, new LearnedSpellsMain.LearnedSpellsStorage(), LearnedSpellsMain.LearnedSpellsFunctions.class);
+
+        CapabilityManager.INSTANCE.register(PlayerDominion.class, new Capability.IStorage<PlayerDominion>()
+        {
+            @Nullable
+            @Override
+            public NBTBase writeNBT(Capability<PlayerDominion> capability, PlayerDominion instance, EnumFacing side) {
+                throw new UnsupportedOperationException();
+            }
+
+            @Override
+            public void readNBT(Capability<PlayerDominion> capability, PlayerDominion instance, EnumFacing side, NBTBase nbt) {
+                throw new UnsupportedOperationException();
+            }
+        }, () -> null );
+
         MinecraftForge.EVENT_BUS.register(DominionTickHandler.instance);
+        MinecraftForge.EVENT_BUS.register(PlayerPropertyEvents.instance);
         ModDimensions.init();
     }
 

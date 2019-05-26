@@ -2,6 +2,7 @@ package halestormxv.proxy;
 
 import halestormxv.KeyBindings;
 import halestormxv.capabilities.runebag.RuneBagProvider;
+import halestormxv.utility.handlers.OverlayRenderer;
 import halestormxv.utility.handlers.PotionTooltipHandler;
 import halestormxv.capabilities.runebag.IRuneBagProvider;
 import halestormxv.init.BlockInit;
@@ -72,6 +73,7 @@ public class ClientProxy extends CommonProxy
         super.preInit(e);
         RenderHandler.registerEntityRenders();
         OBJLoader.INSTANCE.addDomain(Reference.MODID);
+        MinecraftForge.EVENT_BUS.register(OverlayRenderer.instance);
     }
 
     @Override

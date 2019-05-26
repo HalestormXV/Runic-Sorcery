@@ -1,6 +1,9 @@
 package halestormxv.world.dominion;
 
+import halestormxv.capabilities.dominion.PlayerDominion;
+import halestormxv.capabilities.dominion.PlayerProperties;
 import halestormxv.network.PacketHandler;
+import halestormxv.network.packets.PacketSendDominion;
 import halestormxv.utility.Reference;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -142,7 +145,7 @@ public class WorldDominion extends WorldSavedData
         for (EntityPlayer player : world.playerEntities) {
             float dominionStrength = getDominionStrength(world, player.getPosition());
             float maxInfluence = getDominionInfluence(world, player.getPosition());
-            PlayerDominion playerDominion = PlayerProperties.getPlayerMana(player);
+            PlayerDominion playerDominion = PlayerProperties.getPlayerDominion(player);
             PacketHandler.INSTANCE.sendTo(new PacketSendDominion(dominionStrength, maxInfluence, playerDominion.getDominion()), (EntityPlayerMP) player);
         }
     }

@@ -1,5 +1,6 @@
 package halestormxv.network.packets;
 
+import halestormxv.utility.handlers.OverlayRenderer;
 import io.netty.buffer.ByteBuf;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
@@ -44,7 +45,7 @@ public class PacketSendDominion implements IMessage
         }
 
         private void handle(PacketSendDominion message, MessageContext ctx) {
-            OverlayRenderer.instance.setMana(message.dominion, message.influence, message.playerMana);
+            OverlayRenderer.instance.setDominion(message.dominion, message.influence, message.playerMana);
         }
     }
 }
