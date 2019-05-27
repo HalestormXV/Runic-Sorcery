@@ -1,6 +1,5 @@
 package halestormxv.capabilities;
 
-import halestormxv.capabilities.learnedspells.LearnedSpellsMain;
 import halestormxv.capabilities.runebag.RuneBagProvider;
 import halestormxv.capabilities.runecrafting.rcLvl_Provider;
 import halestormxv.capabilities.spellcastlevel.SpellCastLvLProvider;
@@ -26,6 +25,5 @@ public class CapabilityHandler
         event.addCapability(RUNECRAFT_LEVEL, new rcLvl_Provider());
         event.addCapability(RUNEBAG_CAP, new RuneBagProvider());
         event.addCapability(SPELL_CAST_LEVEL_CAP, new SpellCastLvLProvider());
-        event.addCapability(LEARNED_SPELLS_CAPABILITY, new LearnedSpellsMain.LearnedSpellsProvider());
     }
 }

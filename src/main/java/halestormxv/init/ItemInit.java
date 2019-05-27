@@ -6,9 +6,7 @@ import halestormxv.objects.items.records.Record_Motomiya;
 import halestormxv.objects.items.spellblades.SpellBlade_Fire;
 import halestormxv.objects.items.spellblades.SpellBlade_Weakness;
 import halestormxv.objects.items.staffs.ApprenticeStaff;
-import halestormxv.objects.items.tomes.Tome_Empower;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemPotion;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
@@ -38,7 +36,6 @@ public class ItemInit
 
     //SPELL TOMES\\
     public static final Item TOME_BASE = new SpellTomeBase("spell_tome_base");
-    public static final Item TOME_EMPOWER = new Tome_Empower("spell_tome_empower");
 
     //META DATA ITEMS\\
     public static final Item ITEM_RUNE = new ItemRunes("item_runestone");

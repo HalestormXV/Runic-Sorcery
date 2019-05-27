@@ -1,7 +1,5 @@
 package halestormxv.utility.handlers;
 
-import halestormxv.capabilities.learnedspells.ILearnedSpells;
-import halestormxv.capabilities.learnedspells.LearnedSpellsMain;
 import halestormxv.capabilities.runebag.RuneBagProvider;
 import halestormxv.capabilities.runecrafting.rcLvl_Provider;
 import halestormxv.capabilities.spellcastlevel.SpellCastLvLProvider;
@@ -88,11 +86,6 @@ public class EventHandler
         //Rune Satchel Bag Do What it Gotta Do
         NBTTagCompound bags = event.getOriginal().getCapability(RuneBagProvider.RUNEBAG_CAP, null).serializeNBT();
         event.getEntityPlayer().getCapability(RuneBagProvider.RUNEBAG_CAP, null).deserializeNBT(bags);
-
-        //Make Sure the Spell List stays updated
-        ILearnedSpells learnedSpells = player.getCapability(LearnedSpellsMain.LearnedSpellsProvider.LEARNED_SPELLS_CAPABILITY, null);
-        ILearnedSpells oldLearnedSpells = event.getOriginal().getCapability(LearnedSpellsMain.LearnedSpellsProvider.LEARNED_SPELLS_CAPABILITY, null);
-        learnedSpells.setSpellList(oldLearnedSpells.getSpellList());
     }
 
     @SubscribeEvent

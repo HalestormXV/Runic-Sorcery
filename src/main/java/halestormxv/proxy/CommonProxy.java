@@ -3,8 +3,6 @@ package halestormxv.proxy;
 import halestormxv.abilities.RuneBlade_Abilities;
 import halestormxv.capabilities.dominion.PlayerDominion;
 import halestormxv.capabilities.dominion.PlayerPropertyEvents;
-import halestormxv.capabilities.learnedspells.ILearnedSpells;
-import halestormxv.capabilities.learnedspells.LearnedSpellsMain;
 import halestormxv.capabilities.runebag.RuneBagFunctions;
 import halestormxv.capabilities.runebag.RuneBagStorage;
 import halestormxv.capabilities.spellcastlevel.SpellCastLvLFunctions;
@@ -64,7 +62,6 @@ public class CommonProxy
     }
 
     public IRuneBagProvider getClientBagProps() { return null; }
-    public ILearnedSpells getClientData() { return null; }
 
     public void preInit(FMLPreInitializationEvent e)
     {
@@ -76,8 +73,6 @@ public class CommonProxy
         CapabilityManager.INSTANCE.register(IRuneCraftLevel.class, new rcLvl_Storage(), rcLvl_Functions.class);
         CapabilityManager.INSTANCE.register(IRuneBagProvider.class, new RuneBagStorage(), RuneBagFunctions.class);
         CapabilityManager.INSTANCE.register(ISpellCastLevel.class, new SpellCastLvLStorage(), SpellCastLvLFunctions.class);
-        CapabilityManager.INSTANCE.register(ILearnedSpells.class, new LearnedSpellsMain.LearnedSpellsStorage(), LearnedSpellsMain.LearnedSpellsFunctions.class);
-
         CapabilityManager.INSTANCE.register(PlayerDominion.class, new Capability.IStorage<PlayerDominion>()
         {
             @Nullable

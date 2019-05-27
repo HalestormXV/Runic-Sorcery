@@ -32,14 +32,12 @@ public class PacketHandler
         INSTANCE.registerMessage(SendKey_PKT.Handler.class, SendKey_PKT.class, nextID(), Side.SERVER);
         INSTANCE.registerMessage(FetchRunecraftLvl.Handler.class, FetchRunecraftLvl.class, nextID(), Side.SERVER);
         INSTANCE.registerMessage(CycleSpells.Handler.class, CycleSpells.class, nextID(), Side.SERVER);
-        INSTANCE.registerMessage(FetchKnownSpells.Handler.class, FetchKnownSpells.class, nextID(), Side.SERVER);
 
         //Client Packets
         INSTANCE.registerMessage(SyncRCLvl.Handler.class, SyncRCLvl.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(SyncBagData.Handler.class, SyncBagData.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(DispelSuccess.Handler.class, DispelSuccess.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(SyncSpellCastLvl.Handler.class, SyncSpellCastLvl.class, nextID(), Side.CLIENT);
-        INSTANCE.registerMessage(SyncLearnedSpellsData.Handler.class, SyncLearnedSpellsData.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(PacketChatUtils.PacketNoSpamChat.Handler.class, PacketChatUtils.PacketNoSpamChat.class, nextID(), Side.CLIENT);
         INSTANCE.registerMessage(PacketSendDominion.Handler.class, PacketSendDominion.class, nextID(), Side.CLIENT);
     }
